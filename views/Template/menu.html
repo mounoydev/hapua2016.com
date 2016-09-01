@@ -1,0 +1,34 @@
+<section id="menu-area">
+    <nav class="navbar navbar-default bbmunu" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- LOGO -->
+                <!-- TEXT BASED LOGO -->
+                <!--<a class="navbar-brand" href="index.html">Intensely</a>-->
+                <!-- IMG BASED LOGO  -->
+                <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul id="top-menu" class="nav navbar-nav navbar-right menupk">
+                    <li {% if title=='Home' %}class="active"{% endif %}><a href="/">Home</a></li>
+                    <li {% if title=='EDL' %}class="active"{% endif %}><a href="/EDL">EDL</a></li>
+                    <li {% if title=='HAPUA' %}class="active"{% endif %}><a href="/HAPUA">HAPUA</a></li>
+                    <li {% if title=='AGENDA' %}class="active"{% endif %}><a href="/AGENDA">AGENDA</a></li>
+                    <li {% if title=='WAETHER' %}class="active"{% endif %}><a href="/WAETHER">WAETHER</a></li>
+                    <li {% if title=='CONTACT' %}class="active"{% endif %}><a href="/CONTACT">CONTACT US</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+            <!--<a href="#" id="search-icon">-->
+            <!--<i class="fa fa-search">-->
+            <!--</i>-->
+            <!--</a>-->
+        </div>
+    </nav>
+</section>

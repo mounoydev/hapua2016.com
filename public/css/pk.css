@@ -1,0 +1,161 @@
+/*#top-menu{*/
+    /*height: 60px;*/
+/*}*/
+.header-bottom{
+    color: #2196f3;
+    height: 100px;
+}
+.header-bottom{
+background-color: #2196f3;
+    border: 0px;
+}
+.logoimg{
+    height: 100px;
+}
+
+
+.navbar-brand > img{
+    margin-top:-14px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-brand > img{
+        margin-top:-28px;
+    }
+    /*#top-menu{*/
+        /*height: auto;*/
+    /*}*/
+}
+
+.logol{
+    float:right;
+}
+.logolcenter{
+    padding-left: 135px;
+}
+.col-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#menu-area .navbar-default{
+    background-color: #2196f3 !important;
+    border-color:#2196f3 !important;
+}
+
+.navbar{
+    border-radius:0px !important;
+
+}
+
+
+.menupk>li>a{
+    color: #ffffff !important;
+}
+.bbmunu{
+    border-top-width: 0px;
+}
+
+.injumbotron{
+    border: 8px;
+    border-color: #9e9d24;
+    border-style: solid;
+    padding-left: 7%;
+    color: #226eab;
+    position: static;
+}
+.injumbotron>p{
+    margin-top: -1.1%;
+}
+
+.jumbotron{
+    background-color: rgba(173, 173, 173, 0.01);
+    box-shadow: #d4d4d4 0.1em 0.1em 0.1em 0.1em;
+}
+.newjumbotron{
+    border-radius:0px!important;
+}
+
+.emailcolor{
+    color: #226eab;
+}
+.mysize{
+    font-size: 40px!important;
+}
+.mysize2{
+    font-size: 30px!important;
+}
+.top-buffer { margin-top:50px; }
+.hapuatextcolor{
+    color: #226eab!important;
+}
+
+.hapuaboximg {
+    display: inline-block;
+    float: none;
+    margin-right: 14px;
+    margin-bottom: 3px;
+    width: 45%;
+}
+.hapuahistory{
+    color: #2f2f2f;
+}
+.eldimg{
+    height:240px;
+}
+.textedl{
+    color: #226eab!important;
+    font-size: 40px!important;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.48);
+}
+
+.imgedl2{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 25px;
+}
+.MsoNormalTable{
+    width: 100%!important;
+}
+.WordSection1>table{
+    width: 100%!important;
+}
+.hapuamore{
+    float: right;
+}
+.mycolor{
+    color: #2f2f2f;
+}
+.hapuacenter
+{
+    text-align: center;
+}
+.scrollToTop {
+    background-color: #226eab;
+}
+
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 3px solid #9e9d24;
+        margin: 1em 0;
+        padding: 0;
+        width: 80%;
+    }
+.imgshadow{
+    box-shadow: #d4d4d4 0.1em 0.1em 0.1em 0.1em;
+    border-radius: 0.2em;
+}
+.logoccc{
+    text-align: center;
+}
+#footer{
+    background-color: #2196f3;
+
+}
+.footer-left p{
+    color: white;
+}

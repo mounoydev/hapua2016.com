@@ -1,0 +1,58 @@
+<div class="panel panel-info w-panel-detail" style="width: 100%">
+    <div class="panel-heading">Forecast</div>
+    <div class="panel-body">
+
+        <div class="panel-group" id="accordion">
+
+            {% for forecast in weatherdata.fw %}
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background-color: black;color: white">
+                    <dev class="panel-title">
+                        <div data-toggle="collapse" data-parent="#accordion" href="#{{forecast.dayname}}">
+                        <div class="row" style="margin-left: 5%">
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 w-forecast">{{forecast.dayname}}</div>
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 w-forecast">
+                                <img src="http://openweathermap.org/img/w/{{forecast.icon}}.png" style="width: 30px" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 w-forecast">
+                                <span>{{forecast.temp_min}}°</span>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3  w-forecast">
+                                <span>{{forecast.temp_max}}°</span>
+                            </div>
+
+                        </div>
+
+                        </div>
+                    </dev>
+                </div>
+
+                <div id="{{forecast.dayname}}" class="panel-collapse collapse" style="background-color: black;color: white">
+                    <div class="panel-body">
+
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.desc}}</span> Feels like</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.temp}}°</span> temperature</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.temp_min}}°</span>minimum temperature</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.temp_max}}°</span>maximum temperature</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.pressure}} hPa</span>pressure</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.humidity}} %</span>humidity</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.wind}} m/s</span>Wind</li>
+                            <li class="list-group-item"><span class="w-detail-list">{{forecast.clouds}} %</span>Clouds</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+
+
+    </div>
+</div>

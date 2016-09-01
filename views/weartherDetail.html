@@ -1,0 +1,32 @@
+{% block detail %}
+
+<div class="panel panel-info w-panel-detail" style="width: 100%">
+    <div class="panel-heading">Details</div>
+    <div class="panel-body">
+    <div class="row">
+        <span class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+
+            <img src="http://openweathermap.org/img/w/{{weatherdata.cw.weather.icon}}.png" class="img-circle" style="width: 100%">
+        </span>
+
+        <span class="col-lg-9 col-md-9 col-md-9 col-sm-9 col-xs-9">
+            <ul class="list-group">
+                <li class="list-group-item"><span class="w-detail-list">{{weatherdata.cw.weather.description}}</span> Feels like</li>
+                <li class="list-group-item"><span class="w-detail-list">{{weatherdata.cw.humidity}} %</span> Humidity</li>
+                <li class="list-group-item"><span class="w-detail-list">{{weatherdata.cw.visibility}} Km</span>Visibility</li>
+                <li class="list-group-item"><span class="w-detail-list">{{weatherdata.cw.temp_max}} °</span> maximum temperature</li>
+                <li class="list-group-item"><span class="w-detail-list">{{weatherdata.cw.temp_min}} °</span> minimum temperature</li>
+                <li class="list-group-item"><span class="w-detail-list">{{weatherdata.cw.clouds}} %</span> clouds</li>
+            </ul>
+
+        </span>
+
+    </div>
+
+
+    </div>
+</div>
+
+
+
+{% endblock %}

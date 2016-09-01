@@ -1,0 +1,53 @@
+<div class="panel panel-info w-panel-detail" style="width: 100%">
+    <div class="panel-heading">Forecast Today</div>
+    <div class="panel-body">
+
+    <div class="row" style="margin-left: 2%">
+
+        {% for cforecast in weatherdata.cfw %}
+        <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+            <div class="row">
+                <span>{{cforecast.time}}	</span>
+            </div>
+            <div class="row">
+                <img src='http://openweathermap.org/img/w/{{cforecast.icon}}.png' class="img-responsive">
+            </div>
+            <div class="row">
+                <span style="padding-left: 4%;">{{cforecast.temp}}°</span>
+            </div>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+
+
+      <!-- content
+
+        <div class="row">
+            {% for cforecast in weatherdata.cfw %}
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+                <span>{{cforecast.time}}	</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            {% for cforecast in weatherdata.cfw %}
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+
+                <div class="">
+                    <img src='http://openweathermap.org/img/w/{{cforecast.icon}}.png' class="img-responsive">
+                </div>
+                <span style="padding-left: 20%;">{{cforecast.temp}}°</span>
+            </div>
+            {% endfor %}
+        </div>
+
+-->
+
+    </div>
+
+</div>

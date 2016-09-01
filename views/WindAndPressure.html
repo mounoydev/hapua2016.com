@@ -1,0 +1,31 @@
+<div class="panel panel-info w-panel-detail" style="width: 100%">
+    <div class="panel-heading">Wind & Pressure</div>
+    <div class="panel-body">
+
+        <div class="row">
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+               <img src="/public/images/ESNVHCA.gif" class="img-responsive">
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <div>Wind</div>
+                <span>{{weatherdata.cw.speed}}</span><span style="margin-left: 2%">meter/sec</span>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <span>
+                Barometer
+            </span>
+
+            </div>
+
+            <span style="margin-left: 1%;">   {{weatherdata.cw.pressure}}</span>
+            <span style="margin-left: 1%;">  hPa</span>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,101 @@
+#w-contianer{
+    background-repeat: no-repeat;
+    background-image: url('/public/images/Pha_That_Luang_1.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menu-area{
+    opacity: 0.5;
+}
+#header{
+    opacity: 0.5;
+}
+#w-div-top{
+    color: white;
+    margin-left: 5%;
+}
+
+#w-div-bottom{
+    margin-left: 4%;
+    color: white;
+}
+
+#w-dev-county{
+    font-size: 60px;
+}
+#w-span-temp{
+    font-size: 100px;
+}
+
+#w-span-unit{
+    font-size: 40px;
+    position: relative;
+    top: -50px;
+}
+
+#w-c{
+    font-size: 50px;;
+}
+
+.w-dev{
+    right: 2%;
+    margin-top: 1%;
+}
+
+#w-span-nameweather{
+    margin-left: -50%;
+
+        }
+
+.w-detail-list{
+float: right;
+
+}
+
+.w-panel-detail{
+    border-color: black;
+    background-color: black;
+    opacity: 0.8;
+    width: 40%;
+}
+
+.panel-info > .panel-heading{
+    color: white;
+    background-color: black;
+}
+
+.list-group-item{
+    border-width: 0px;
+    color: white;
+    background-color: black;
+}
+
+.w-row1{
+    margin-left: 5%;
+}
+
+.w-row2{
+    margin: 0px 18% 0px 0px;
+    position: relative;
+    float: right;
+}
+
+.w-forecast{
+
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.w-top-main-row{
+    margin-top: 3%;
+
+}
+
+.w-number{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    color: white;
+}
